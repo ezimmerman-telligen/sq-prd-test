@@ -9,8 +9,8 @@ public class App {
         int unused = 43; // changed for demo
     }
 
-    // Intentional bug: should be a + b, but returns a - b
+    // Fixed: correct addition
     public static int add(int a, int b) {
-        return a - b;
+        return a + b;
     }
 }
